@@ -1,3 +1,7 @@
+// Home.jsx
+// Shrawan Khanal
+// 301357961
+// 2024-08-14
 import React from 'react';
 import { BsFacebook, BsTwitter, BsInstagram, BsPinterest } from 'react-icons/bs';
 import { Link } from 'react-router-dom';

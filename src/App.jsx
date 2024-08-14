@@ -1,3 +1,7 @@
+// App.jsx
+// Shrawan Khanal
+// 301357961
+// 2024-08-14
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Main from './components/Main';

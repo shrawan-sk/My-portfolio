@@ -1,3 +1,7 @@
+// Contact.jsx
+// Shrawan Khanal
+// 301357961
+// 2024-08-14
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
 import Nav from "./Nav"

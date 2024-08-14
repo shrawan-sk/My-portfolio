@@ -1,3 +1,7 @@
+// Main.jsx
+// Shrawan Khanal
+// 301357961
+// 2024-08-14
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'

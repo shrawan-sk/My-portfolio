@@ -1,3 +1,7 @@
+// Main.jsx
+// Shrawan Khanal
+// 301357961
+// 2024-08-14
 import React, { useState } from 'react';
 import { CgNametag } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";
