@@ -21,8 +21,7 @@ const Nav = () => {
         <div className="flex items-center">
           <img src="/src/assets/heroMain.png" alt="" className="w-12 h-12" />
           <Link to="/" className="ml-2 text-xl font-bold text-indigo-600 flex items-center">
-            <CgNametag className="mr-1" />
-            SHUSAN
+            SHRAWAN
           </Link>
         </div>
         <div className="hidden lg:flex space-x-4">

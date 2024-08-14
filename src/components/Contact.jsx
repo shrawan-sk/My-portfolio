@@ -29,35 +29,33 @@ const Contact = () => {
         <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
             <Nav></Nav>
             <section className="text-center p-8 bg-white shadow-lg rounded-lg max-w-md w-full">
-                <h1 className="text-4xl font-bold text-blue-200 mb-4">Contact Me</h1>
-                <div className="mb-6">
-                    <p className="text-lg text-gray-700">Email: spariyar@my.centennialcollege.ca</p>
-                    <p className="text-lg text-gray-700">Phone: (437) 259-4300</p>
-                </div>
+                <h1 className="text-4xl font-bold text-blue-900 mb-4">Contact Me</h1>
                 <form onSubmit={handleSubmit} className="w-full">
-                    <div className="mb-4">
-                        <label className="block text-gray-700 mb-2" htmlFor="firstName">First Name</label>
-                        <input 
-                            type="text"
-                            id="firstName"
-                            name="firstName"
-                            value={formData.firstName}
-                            onChange={handleChange}
-                            className="w-full px-3 py-2 border rounded"
-                            required
-                        />
-                    </div>
-                    <div className="mb-4">
-                        <label className="block text-gray-700 mb-2" htmlFor="lastName">Last Name</label>
-                        <input 
-                            type="text"
-                            id="lastName"
-                            name="lastName"
-                            value={formData.lastName}
-                            onChange={handleChange}
-                            className="w-full px-3 py-2 border rounded"
-                            required
-                        />
+                    <div className="flex space-x-4 mb-4">
+                        <div className="w-1/2">
+                            <label className="block text-gray-700 mb-2" htmlFor="firstName">First Name</label>
+                            <input 
+                                type="text"
+                                id="firstName"
+                                name="firstName"
+                                value={formData.firstName}
+                                onChange={handleChange}
+                                className="w-full px-3 py-2 border rounded"
+                                required
+                            />
+                        </div>
+                        <div className="w-1/2">
+                            <label className="block text-gray-700 mb-2" htmlFor="lastName">Last Name</label>
+                            <input 
+                                type="text"
+                                id="lastName"
+                                name="lastName"
+                                value={formData.lastName}
+                                onChange={handleChange}
+                                className="w-full px-3 py-2 border rounded"
+                                required
+                            />
+                        </div>
                     </div>
                     <div className="mb-4">
                         <label className="block text-gray-700 mb-2" htmlFor="contactNumber">Contact Number</label>

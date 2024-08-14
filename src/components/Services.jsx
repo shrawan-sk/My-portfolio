@@ -7,13 +7,13 @@ const services = () =>{
           <Nav></Nav>
           <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
             <section className="text-center p-8 bg-white shadow-lg rounded-lg">
-                <h1 className="text-4xl font-bold text-blue-200 mb-4">Services</h1>
+                <h1 className="text-4xl font-bold text-blue-900 mb-4">Services</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {/* Service 1: Haircut */}
+                    {/* Service 1: Customer Service */}
                     <div className="bg-gray-200 p-4 rounded-lg">
-                        <img src="src\assets\haircutOne.png" alt="Haircut" className="w-full h-48 object-cover rounded-lg mb-4" />
-                        <h2 className="text-xl font-bold text-blue-600 mb-2">Haircut</h2>
-                        <p className="text-gray-700">Professional haircut services for men and women.</p>
+                        <img src="src\assets\custService.png" alt="Haircut" className="w-full h-48 object-cover rounded-lg mb-4" />
+                        <h2 className="text-xl font-bold text-blue-600 mb-2">Customer Service</h2>
+                        <p className="text-gray-700">Exceptional customer service, ensuring satisfaction and support for all your needs, both personal and professional.</p>
                     </div>
                     {/* Service 2: Photo Editing */}
                     <div className="bg-gray-200 p-4 rounded-lg">
